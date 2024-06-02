@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8c6c05c0b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">HAMBURGER</a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="file:///C:/Users/user/OneDrive/%E6%A1%8C%E9%9D%A2/112-2/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/test/test.html">Home</a>
+            <div class="dropdown">
+                <a href="file:///C:/Users/user/OneDrive/%E6%A1%8C%E9%9D%A2/112-2/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/test/menu/menu.html">Our menu</a>
+                <div class="dropdown-content">
+                    <a id="Burgers" onclick="Burgers()" href="javascript:;">Burgers</a>
+                    <a id="Beverages" onclick="Beverages()" href="javascript:;">Beverages</a>
+                    <a id="Snakes" onclick="Snakes()" href="javascript:;">Snakes</a>
+                </div>
+            </div>
+            <a href="#gallery">About us</a>
+            <a href="#review">review</a>
+            <a href="#order">Locate</a>
+        </nav>
+    </header>
+    <div class="news-contents wrapper">
+        <article>
+            <h3 class="sub-title">type</h3> 
+            <ul class="sub-menu">
+                <li><a id="Burgers" onclick="Burgers()" href="javascript:;">Burgers</a></li>
+                <li><a id="Beverages" onclick="Beverages()" href="javascript:;">Beverages</a></li>
+                <li><a id="Snakes" onclick="Snakes()" href="javascript:;">Snakes</a></li>
+            </ul>
+        </article>
+        <aside>
+            <div>
+                <div id="Burgerson" style="display: ''">
+                    <h3>Burgers</h3>
+                    <table class="Burgers">
+                        <tr>
+                            <td><img src="image/1425_cheeseburger_BestBurger_WK1-original.jpg" alt=""><hr><B>Cheese Burger</B></td>
+                            <td><img src="image/double-cheese-burger_832x822_nutrition-calculator-tile.jfif" alt=""><hr><B>Double Cheese Burger</B></td>
+                            <td><img src="image/MDS200401_SC_PM_ALC_500-3.png" alt=""><hr><B>Chicken Burger</B></td>
+                        </tr>
+                        <tr>
+                            <td><img src="image/MCD_GLBL21_FiletOFish_3Q-original.png" alt=""><hr><B>Fish Burger</B></td>
+                            <td><img src="image/Kakiage-Rice-Burger.jpg" alt=""><hr><B>Rice Burger</B></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="Beverageson" style="display: none;">
+                    <h3>Beverages</h3>
+                    <table class="Beverages">
+                        <tr>
+                            <td><img src="image/45d39fc97e4d1b890d815e93ba97c557d783945c-590x393.png" alt=""><hr><B>Coca-cola</B></td>
+                            <td><img src="image/a9f688f8a8806c71a0f864e83028dec5c125c0d3-590x393.png" alt=""><hr><B>Sprite</B></td>
+                            <td><img src="image/MDS200401_CS_BevG_200-9.png" alt=""><hr><B>Lemon Tea</B></td>
+                        </tr>
+                        <tr>
+                            <td><img src="image/johnnys-strawberry-shake-recipe_9d3a61ee2692eedfbd690c708e44138a.jpeg" alt=""><hr><B>strawberry shake</B></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="Snakeson" style="display: none;">
+                    <h3>Snakes</h3>
+                    <table class="Snakes">
+                        <tr>
+                            <td><img src="image/下載 (1).jfif" alt=""><hr><B>Fries</B></td>
+                            <td><img src="image/apple-pie_832x822_nutrition-calculator-tile.jfif" alt=""><hr><B>Apple pie</B></td>
+                            <td><img src="image/McDonalds-Hash-Browns-170-hero.png" alt=""><hr><B>hash Browns</B></td>
+                        </tr>
+                        <tr>
+                            <td><img src="image/ice-cream-cone_832x822_nutrition-calculator-tile.jfif" alt=""><hr><B>ice cream cone</B></td>
+                            <td><img src="image/chicken-mcnuggets-10-pieces_832x822_nutrition-calculator-tile.jfif" alt=""><hr><B>Chicken nuggets</B></td>
+                        </tr>
+                    </table>
+                </div>       
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2024 ping</small></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
